@@ -65,7 +65,7 @@ WORKDIR /srv/nbviewer
 ADD . /srv/nbviewer/
 RUN invoke less
 
-# Expose volume
+# Expose volumes
 # docker run -p 8080:8080 -v /host/directory:/srv/notebooks nbviewer
 RUN mkdir /srv/notebooks
 VOLUME /srv/notebooks

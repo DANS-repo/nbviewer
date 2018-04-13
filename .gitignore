@@ -1,6 +1,7 @@
 __pycache__
 .debug
 .DS_Store
+./idea
 .pandoc
 *.egg-info
 *.pyc
